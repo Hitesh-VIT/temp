@@ -1,0 +1,8 @@
+connection
+drop_field
+migrate_app
+table_exists
+apps
+transaction
+field_exists
+ProgrammingError

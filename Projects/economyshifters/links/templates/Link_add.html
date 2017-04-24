@@ -1,0 +1,39 @@
+{% extends 'mBase.html' %}
+
+{% block content %}
+<style>
+    label{display:block;}
+</style>
+<body>
+<div class=content>
+    <main class="container">
+		<section class="content">
+			<h1>Add New Link</h1>
+        </section>
+
+    <form method="post"  >
+{% csrf_token %}
+
+
+                            <table class="margin-tp">
+                                <tr>
+                                    <td>{{ form.link.label_tag }}</td>
+                                    <td>{{  form.link }}</td>
+                                    
+
+                                </tr>
+                                <tr>
+                                    <td>{{ form.referral_id.label_tag }}</td>
+                                    <td>{{ form.referral_id }}</td>
+                                </tr>
+                                
+                            </table>
+                            <div class="margin-tp">
+                                <input class="btn" type="submit" value="Add Link" />
+                            </div>
+                        </p>
+                    </form>
+    </main>
+</div>
+</body>
+{% endblock content %}

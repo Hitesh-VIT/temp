@@ -1,0 +1,5 @@
+CategoryFKField
+ForeignKey
+ManyToManyField
+CategoryM2MField
+add_introspection_rules

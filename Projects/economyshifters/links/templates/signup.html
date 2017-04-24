@@ -1,0 +1,46 @@
+{% extends 'mBase.html' %}
+{% block content %}
+<style>
+
+    .margin-tp{
+    margin-top:40px;
+    }
+</style>
+<body>
+{% if errors %}
+
+<p>Your username is not unique</p>
+{% endif %}
+	<div class="content">
+    		<main class="container">
+    		<section class="content">
+			<h1>Sign Up</h1>
+    		</section>
+
+                <form method="post" >
+{% csrf_token %}
+
+
+                            <table class="margin-tp">
+                                <tr>
+                                    <td>{{ form.username.label_tag }}</td>
+                                    <td>{{ form.username }}</td>
+                                </tr>
+                                <tr>
+                                    <td>{{ form.password.label_tag }}</td>
+                                    <td>{{ form.password }}</td>
+                                </tr>
+                                <tr>
+                                    <td>{{ form.email.label_tag }}</td>
+                                    <td>{{ form.email }}</td>
+                                </tr>
+                            </table>
+                            <div class="margin-tp">
+                                <input class="btn" type="submit" value="submit" />
+	                        </div>
+                        </p>
+                    </form>
+
+
+
+{% endblock content%}

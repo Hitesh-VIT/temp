@@ -1,0 +1,6 @@
+post_syncdb
+drop_category_field
+add_category_fields
+migrate_app
+db
+import_categories

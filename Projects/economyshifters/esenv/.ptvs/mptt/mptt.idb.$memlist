@@ -1,0 +1,17 @@
+models
+exceptions
+__version__
+forms
+register
+settings
+unicode_literals
+compat
+utils
+signals
+querysets
+templatetags
+VERSION
+managers
+admin
+AlreadyRegistered
+fields

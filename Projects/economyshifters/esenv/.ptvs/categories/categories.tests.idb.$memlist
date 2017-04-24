@@ -1,0 +1,6 @@
+test_category_import
+test_models
+test_admin
+test_registration
+test_templatetags
+test_manager

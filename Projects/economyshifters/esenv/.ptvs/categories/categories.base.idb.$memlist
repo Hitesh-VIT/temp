@@ -1,0 +1,17 @@
+SLUG_TRANSLITERATOR
+TreeManager
+slugify
+CategoryBaseAdmin
+forms
+TreeForeignKey
+CategoryManager
+MPTTModel
+CategoryBaseAdminForm
+TreeEditor
+models
+CategoryBase
+_
+force_text
+admin
+python_2_unicode_compatible
+ALLOW_SLUG_CHANGE
